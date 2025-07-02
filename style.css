@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: auto;
+    font-family: monospace, sans-serif, serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
