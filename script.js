@@ -1,8 +1,9 @@
 let backgroundColor = document.querySelector("body");
 let button = document.getElementById("change-colour");
+let colorText = document.getElementById("color-text");
+
 // colors is the array containing all the colors
 let colors = ["red", "yellow", "green", "blue", "black", "white", "pink", "purple", "orange", "grey"];
-let colorText = document.getElementById("color-text");
 let value = Math.floor(Math.random()*10);
 
 button.addEventListener("click", changeColor);
@@ -12,12 +13,9 @@ function randomNumber() {
     return value;
 }
 
+// This function updates the background color
 function changeColor() {
-    backgroundColor.style.backgroundColor = colors[randomNumber()];
-    // backgroundColor.innerHTML = `
-    // <button type="button" id="change-colour">Change Color</button>
-    // `
-    console.log(randomNumber());
-    // for (let i=0; i<colors.length, i++;) {
-    // }
+    let i = randomNumber()
+    backgroundColor.style.backgroundColor = colors[i];
+    colorText.style.color = colors[i]
 }

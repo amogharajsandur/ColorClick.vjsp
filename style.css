@@ -2,7 +2,7 @@
     margin: 0;
     padding: auto;
     font-family: monospace, sans-serif, serif;
-    font-size: large;
+    font-size: xx-large;
 }
 
 body {
@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: white;
+    transition: ease-in-out 0.3s;
 }
 
     button {
@@ -19,10 +20,20 @@ body {
         border-radius: 0.5rem;
         background-color: #EFEFEF;
         border: 0.1rem solid black;
+        transition: ease-in-out 0.3s;
+        outline: auto;
     }
     
     button:hover {
+        padding: 0.6rem;
+        transition: ease-in-out 0.3s;
         background-color: black;
-        border: 0.2rem solid #EFEFEF;
+        border: 0.15rem solid #EFEFEF;
         color: #EFEFEF;
+        box-shadow: 0.2rem 0.2rem black;
+        font-size: 1.1rem;
     }
+    
+    /* button:active {
+        transition: ease-in-out 0.3s;
+    } */
