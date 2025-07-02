@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #EFEFEF;
     transition: ease 0.3s;
 }
 
@@ -36,6 +36,29 @@ body {
         color: #EFEFEF;
         box-shadow: -0.1rem 0.15rem 0.2rem black;
     }
+    
+    .info-box {
+        margin: 1rem;
+        padding: 1rem;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 0.15rem solid black;
+        border-radius: 0.5rem;
+        background-color: #EFEFEF;
+        color: black;
+    }
+    
+        .info-box > p {
+            padding-top: 1rem;
+            text-align: justify;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
 
     /* For extremely small screen phones */
     @media screen and (min-width: 0px) and (max-width: 320px) {
@@ -47,7 +70,7 @@ body {
     /* For Mobile phones */
     @media screen and (min-width: 321px) and (max-width: 425px) {
         button {
-            scale: 0.75;
+            scale: 1;
         }
     }
     
@@ -61,20 +84,20 @@ body {
     /* For Laptops */
     @media screen and (min-width: 769px) and (max-width: 1024px) {
         button {
-            scale: 1.5;
+            scale: 1;
         }
     }
 
     /* For Large screen computers */
     @media screen and (min-width: 1025px) and (max-width: 1440px) {
         button {
-            scale: 2;
+            scale: 1;
         }
     }
 
     /* For extremely large screens */
     @media screen and (min-width: 1441px) {
         button {
-            scale: 2.25;
+            scale: 1;
         }
     }
