@@ -6,7 +6,7 @@ let colorText = document.getElementById("color-text");
 let colors = ["red", "yellow", "green", "blue", "black", "white", "pink", "purple", "orange", "grey"];
 let value = Math.floor(Math.random()*10);
 
-alert("Change the color of the HTML doc with just a mouse click!")
+// alert("Change the color of the HTML doc with just a mouse click!")
 
 button.addEventListener("click", changeColor);
 
