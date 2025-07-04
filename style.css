@@ -38,6 +38,20 @@ body {
         box-shadow: -0.1rem 0.15rem 0.2rem black;
     }
     
+    /* #custom-color {
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+            margin: auto;
+            padding: 0.9rem;
+            border-radius: 0.5rem;
+            border: 0.15rem solid black;
+            transition: ease-in-out 0.3s;
+            box-shadow: -0.15rem 0.2rem black;
+            outline: none;
+            height: 100%;
+    } */
+    
     .info-box {
         margin: 1rem;
         padding: 1rem;
