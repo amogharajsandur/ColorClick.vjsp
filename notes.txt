@@ -1,0 +1,8 @@
+2 July 2024:
+
+Idea: 
+User when clicks the button, the page's background & some element's colors change.
+
+Versions:
+- Preset array of colors
+- Custom user set colors (future)
